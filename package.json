@@ -2,7 +2,7 @@
   "name": "harry-potter-characters",
   "version": "1.0.0",
   "description": "Aplicación de listado de personajes de Harry Potter",
-  "homepage": "https://adalab.github.io/modulo-3-evaluacion-final-jennyalvarez",
+  "homepage": "https://beta.adalab.es/modulo-3-evaluacion-final-jennyalvarez",
   "private": true,
   "dependencies": {
     "prop-types": "^15.8.1",
