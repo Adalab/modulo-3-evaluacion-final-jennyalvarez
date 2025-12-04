@@ -1,7 +1,6 @@
 .App {
   min-height: 100vh;
   /* Fondo con imagen que se adapta y se ve completa en la página */
-  background-image: url("./images/fondo.jpg");
   /* background-repeat: no-repeat evita que la imagen se repita */
   background-repeat: no-repeat;
   /* background-size: cover hace que la imagen cubra toda la página manteniendo sus proporciones */
