@@ -1,0 +1,35 @@
+.house-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.house-label {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.house-select {
+  padding: 0.75rem 1rem;
+  border: 2px solid #d4a574;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f5e6d3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  color: #333;
+}
+
+.house-select:focus {
+  outline: none;
+  border-color: #764ba2;
+  box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.2);
+}

@@ -1,0 +1,133 @@
+.character-detail {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.back-button {
+  background-color: #ffffff;
+  color: #1a1a2e;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.back-button:hover {
+  background-color: #f5f5f5;
+  transform: translateX(-3px);
+}
+
+.character-detail__content {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.character-detail__image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  min-height: 300px;
+
+  object-fit: contain;
+
+  object-position: center;
+
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Mensaje "Sin imagen" cuando no hay imagen en el detalle */
+.character-detail__no-image {
+  width: 100%;
+  max-width: 300px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  background-color: #666666;
+  border-radius: 8px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.character-detail__info {
+  flex: 1;
+}
+
+.character-detail__name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.character-detail__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.character-detail__details p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #333;
+  padding: 0.75rem;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.character-detail__details strong {
+  color: #764ba2;
+  font-weight: 700;
+}
+
+.error-container {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error-container p {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .character-detail__content {
+    flex-direction: row;
+    padding: 3rem;
+  }
+
+  .character-detail__image {
+    margin: 0;
+    max-width: 250px;
+  }
+
+  .character-detail__name {
+    text-align: left;
+  }
+}

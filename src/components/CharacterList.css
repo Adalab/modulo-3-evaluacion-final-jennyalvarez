@@ -1,0 +1,80 @@
+.character-list {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.character-list__grid {
+  display: grid;
+  /* Sistema de grid responsive */
+  /* repeat(auto-fill, minmax(210px, 1fr)) crea columnas que se ajustan automáticamente */
+  /* Cada columna tiene mínimo 210px y máximo 1fr (distribuye el espacio disponible) */
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  /* Aseguramos que las tarjetas tengan el mismo tamaño */
+  align-items: stretch;
+}
+
+.character-list__grid li {
+  /* Cada elemento de la lista ocupa todo el espacio disponible */
+  display: flex;
+  height: 100%;
+}
+
+.loading-container {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-results p {
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.no-results strong {
+  color: #764ba2;
+  font-weight: 700;
+}
+
+/* RESPONSIVE: Ajustes para tabletas */
+@media (max-width: 768px) {
+  .character-list__grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+/* RESPONSIVE: Ajustes para móviles pequeños */
+@media (max-width: 480px) {
+  .character-list {
+    padding: 0 0.5rem;
+  }
+
+  .character-list__grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* RESPONSIVE: Ajustes para móviles muy pequeños */
+@media (max-width: 360px) {
+  .character-list__grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

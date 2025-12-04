@@ -1,0 +1,50 @@
+.App {
+  min-height: 100vh;
+  /* Fondo con imagen que se adapta y se ve completa en la página */
+  background-image: url("./images/fondo.jpg");
+  /* background-repeat: no-repeat evita que la imagen se repita */
+  background-repeat: no-repeat;
+  /* background-size: cover hace que la imagen cubra toda la página manteniendo sus proporciones */
+  background-size: cover;
+  /* background-position: center centra la imagen */
+  background-position: center;
+  /* background-attachment: fixed hace que la imagen se quede fija al hacer scroll (efecto parallax) */
+  background-attachment: fixed;
+  padding-bottom: 2rem;
+  /* Aseguramos que el contenido se vea bien sobre la imagen */
+  position: relative;
+}
+
+.App-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.App-header h1 {
+  color: #ffd700;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 215, 0, 0.5);
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.filters-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .filters-container {
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
