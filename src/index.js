@@ -13,14 +13,18 @@ import App from './App';
 // document.getElementById('root') es el elemento <div id="root"></div> del HTML
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+// Obtener el basename desde la variable de entorno PUBLIC_URL
+// React Scripts configura automáticamente PUBLIC_URL basándose en el campo "homepage" de package.json
+// En desarrollo será undefined (usamos '/') y en producción será '/modulo-3-evaluacion-final-jennyalvarez'
+const basename = process.env.PUBLIC_URL || '/';
+
 // Renderizamos (mostramos) nuestra aplicación
+console.log('React está intentando montar la app');
 root.render(
-  // StrictMode es un modo especial de React que ayuda a encontrar problemas
   <React.StrictMode>
-    {/* BrowserRouter permite que nuestra app tenga diferentes rutas (páginas) */}
-    <BrowserRouter>
-      {/* App es nuestro componente principal */}
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
+console.log('React ha ejecutado root.render');
