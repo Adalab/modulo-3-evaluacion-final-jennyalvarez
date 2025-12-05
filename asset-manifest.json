@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cf12551.css",
-    "main.js": "/static/js/main.f4d78ad1.js",
-    "static/media/fondo.jpg": "/static/media/fondo.ba3a31a11cefd5303906.jpg",
-    "index.html": "/index.html",
-    "main.6cf12551.css.map": "/static/css/main.6cf12551.css.map",
-    "main.f4d78ad1.js.map": "/static/js/main.f4d78ad1.js.map"
+    "main.css": "/modulo-3-evaluacion-final-jennyalvarez/static/css/main.0c6fbdfd.css",
+    "main.js": "/modulo-3-evaluacion-final-jennyalvarez/static/js/main.5d77e39f.js",
+    "index.html": "/modulo-3-evaluacion-final-jennyalvarez/index.html",
+    "main.0c6fbdfd.css.map": "/modulo-3-evaluacion-final-jennyalvarez/static/css/main.0c6fbdfd.css.map",
+    "main.5d77e39f.js.map": "/modulo-3-evaluacion-final-jennyalvarez/static/js/main.5d77e39f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cf12551.css",
-    "static/js/main.f4d78ad1.js"
+    "static/css/main.0c6fbdfd.css",
+    "static/js/main.5d77e39f.js"
   ]
 }
