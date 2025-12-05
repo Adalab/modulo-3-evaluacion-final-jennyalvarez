@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/modulo-3-evaluacion-final-jennyalvarez/static/css/main.0c6fbdfd.css",
-    "main.js": "/modulo-3-evaluacion-final-jennyalvarez/static/js/main.5d77e39f.js",
+    "main.js": "/modulo-3-evaluacion-final-jennyalvarez/static/js/main.c7fab994.js",
     "index.html": "/modulo-3-evaluacion-final-jennyalvarez/index.html",
     "main.0c6fbdfd.css.map": "/modulo-3-evaluacion-final-jennyalvarez/static/css/main.0c6fbdfd.css.map",
-    "main.5d77e39f.js.map": "/modulo-3-evaluacion-final-jennyalvarez/static/js/main.5d77e39f.js.map"
+    "main.c7fab994.js.map": "/modulo-3-evaluacion-final-jennyalvarez/static/js/main.c7fab994.js.map"
   },
   "entrypoints": [
     "static/css/main.0c6fbdfd.css",
-    "static/js/main.5d77e39f.js"
+    "static/js/main.c7fab994.js"
   ]
 }
