@@ -8,6 +8,7 @@
 
 # Production
 /build
+/docs
 
 # Misc
 .DS_Store
@@ -19,5 +20,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-public/404.html
